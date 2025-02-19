@@ -7,8 +7,8 @@
   export async function createProduct(formData: FormData) {
     const data = {
       name: formData.get('name') as string,
-price: formData.get('price') as number,
-reallyLongDescription: formData.get('reallyLongDescription') as string,
+      price: Number(formData.get('price')) as number,
+      reallyLongDescription: formData.get('reallyLongDescription') as string,
 
     }
     
@@ -24,8 +24,8 @@ reallyLongDescription: formData.get('reallyLongDescription') as string,
     try {
       const data = {
         name: formData.get('name') as string,
-price: formData.get('price') as number,
-reallyLongDescription: formData.get('reallyLongDescription') as string,
+        price: Number(formData.get('price')) as number,
+        reallyLongDescription: formData.get('reallyLongDescription') as string,
 
       }
       
