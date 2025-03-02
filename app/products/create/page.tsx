@@ -4,7 +4,7 @@
   import { createProduct } from '@/actions/product';
   import { Input } from '@/components/ui/Input';
   import { Heading } from '@/components/ui/Heading';
-  import { Button } from '@/components/ui/Button';
+  import { Button } from '@/components/ui-new/Button';
   
   
   export default async function ProductCreatePage() {
@@ -58,11 +58,7 @@
               Return to Products list
             </Link>
   
-            <Button
-              type="submit"
-            >
-              Create
-            </Button>
+            <Button>   Create     </Button>
           </footer>
         </form>
       </>

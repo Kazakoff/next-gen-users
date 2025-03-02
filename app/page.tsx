@@ -1,5 +1,5 @@
 
-import { Button } from '@/components/ui/Button';
+import { Button } from '@/components/ui-new/Button';
 
 export default function DashboardPage() {
   return (

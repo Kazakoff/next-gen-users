@@ -2,9 +2,10 @@
   import Link from 'next/link';
   import { prisma } from '@/lib/prisma';
   import { createUser } from '@/actions/user';
-  import { Input } from '@/components/ui/Input';
+  import { Input } from '@/components/ui-new/Input';
   import { Heading } from '@/components/ui/Heading';
-  import { Button } from '@/components/ui/Button';
+  import { Button } from '@/components/ui-new/Button';
+  
   
   
   export default async function UserCreatePage() {
